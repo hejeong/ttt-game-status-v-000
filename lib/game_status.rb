@@ -26,7 +26,7 @@ def won?(board)
     third = board[third_position]
     
     if first == "X" && second == "X" && third == "X"
-      return combo
+      return true
     elsif first == "O" && second == "O" && third == "O"
       return combo
     else
