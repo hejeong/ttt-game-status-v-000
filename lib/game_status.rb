@@ -65,6 +65,7 @@ def winner(board)
   winning_combo = won?(board)
   if winning_combo.class != Array
     nil
-  winning_token = winning_combo[0]
-  
+  else
+    winning_token = winning_combo[0]
+  end
 end
