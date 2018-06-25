@@ -26,11 +26,11 @@ def won?(board)
     third = board[third_position]
     
     if first == "X" && second == "X" && third == "X"
-      return true
+      true
     elsif first == "O" && second == "O" && third == "O"
-      return true
+      true
     else
-      return false
+      false
     end
   end
 end
